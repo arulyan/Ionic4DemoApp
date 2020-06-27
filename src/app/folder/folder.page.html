@@ -16,6 +16,9 @@
 
   <div id="container">
     <strong class="capitalize">{{ folder }}</strong>
+    <ion-button routerLink="/testing2" routerDirection="forward">RouterLinkNav</ion-button>
+    <ion-button (click)="AngularNext()">AngularRouting Nav</ion-button>
+    <ion-button (click)="NavControllerNext()" class="ion-text-center">Controller Next</ion-button>
     <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
   </div>
 </ion-content>
